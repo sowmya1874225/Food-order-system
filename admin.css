@@ -1,0 +1,131 @@
+/*
+Author = sowmya;
+theme = Food order website Admin;
+version = 1.0;
+*/
+
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial,Arial, Helvetica, sans-serif;
+
+
+ } 
+ .wrapper 
+ {
+     
+     padding: 1%;
+     width: 80%;
+     margin: 0 auto; 
+ }
+.text-center
+{
+      text-align:  center;
+}
+.clearfix{
+    float:none;
+    clear: both;
+}
+.tbl-full{
+    width:100%;
+}
+.tbl-30
+{
+   width: 30%; 
+}
+table tr th{
+    border-bottom:1px solid black;
+    padding:1%; 
+    text-align: left;
+}
+table tr td{ 
+    padding: 1%;
+
+}
+.btn-primary{
+    background-color: #273c75;
+    padding:2%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.btn-primary:hover
+{
+    background-color:#192a56 ;
+}
+.btn-secondary{
+    background-color: #4cd137;
+    padding:2%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+    
+}
+.btn-secondary:hover
+{
+    background-color: green ;
+}
+.btn-danger{
+    background-color: #e84118;
+    padding:2%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+    
+}
+.btn-danger:hover
+{
+    background-color: #e84118 ;
+}
+
+/* CSS FOR MENU*/
+.menu {
+    
+    border-bottom: 1px solid grey;
+}
+.menu ul 
+ {
+    list-style-type: none;
+}
+.menu ul li
+{
+    display: inline ;
+    padding:1%
+
+}
+.menu ul li a{
+     text-decoration: none;
+     font-weight: bold;
+     color: #EA2027;
+}
+.menu ul li:hover{
+    color:#EA2027
+}
+/*css for main content */ 
+.main-content{
+    margin: 1% 0;
+    background-color:#f5f6fa ;
+    padding: 1% 0; 
+    
+}
+.col-4{
+    width:10%;
+    background-color: white;
+    margin:1%;
+    padding:2%;
+    float: left;
+
+}
+
+/* css for footer*/
+.footer
+{
+     background-color: #EE5A24;
+     color:white;
+
+}
+
